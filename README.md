@@ -1,8 +1,8 @@
-# SynoDLMSearchTorrentKim
+# SynoDLMSearchNyaa
 
 [![Build Status](https://travis-ci.org/neobutter/SynoDLMSearchNyaa.svg?branch=master)](https://travis-ci.org/neobutter/SynoDLMSearchNyaa)
 
-Synology Search Module for TorrentKim
+Synology Search Module for Nyaa
 
 ## Intro
 This is torrent search module for synology download station.
@@ -13,8 +13,3 @@ Please read article below.
 ```
 https://nas.moe/archives/667
 ```
-
-## Known issues
-* It does not display the file size. Because RSS results didn't have size information.
-* Display current date in publish date field.
-* Display zero in seed/leecher field.

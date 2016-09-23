@@ -1,6 +1,6 @@
 # SynoDLMSearchTorrentKim
 
-[![Build Status](https://travis-ci.org/neobutter/SynoDLMSearchTorrentKim.svg?branch=master)](https://travis-ci.org/neobutter/SynoDLMSearchTorrentKim)
+[![Build Status](https://travis-ci.org/neobutter/SynoDLMSearchNyaa.svg?branch=master)](https://travis-ci.org/neobutter/SynoDLMSearchNyaa)
 
 Synology Search Module for TorrentKim
 

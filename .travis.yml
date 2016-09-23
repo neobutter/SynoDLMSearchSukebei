@@ -1,0 +1,14 @@
+language: php
+install: true
+script: tar zcf nyaa.dlm -C ./src INFO search.php
+deploy:
+  provider: releases
+  api_key:
+    secure: lE8/zyVzw8wsohmvCYbNfMQNax97XTPrCFh5zHvnEuHoDJ1vZhQzABZ5p2f7X0TsxwdwFoK6gKEa3iqKShcNEiVtp3feLMaPsEgM3dEUgLmJQUF4RymXqxbuhLEHiZzdtSEw/VV23oPMSYk1CNMVbhwkA7+zymfkjFH2+d2tC0QK1H96vyOj6qKt1wD4zdJ7+32+vpyPRUrd1dimtbGioIGzxwvO23EIHeM5sJ6Iylht3qK7OAZ5kf6ZfZl+ExbNnwi7EiK1fzH8MNrNS5QlY0yMYezQ99JFhzMhdZzkR1SoIxJXWEnCi9aAvw2w388YYFoJ902ATMsPebxLOFNs5xZtmNMTXhyshHrXWmhx0uSpNq2T1ob/6skdLs07NmKQ/iSwudtFjl449dPiNF6GwMO1JCQqHsTorUtZE0ddlU0XO/pKF4I6Ti9c5Qz6o4AYPCI3eRycioHpixxtUOxOr+KATUVtg/CoLVbqkp8yDfQ6x4UK+zI1cbH7LS99HQzAMrp1SdP3cgGvy3pQ96TGOqkqMazUovGQ6ZTktYj3koitTGJ0Wg0ThDQM6dlLVfp3LYLgzHww4fFGGN7Jie0JuULJ5gukYne8kvKB/gblAIZqXMsWFS3ZK3rJ7r2lzDd10YN7k6U+eo0kOiMzoJad9KdcEff9oWZG2VsoEXofgFs=
+  file: torrentkim.dlm
+  skip_cleanup: true
+  overwrite: true
+  prerelease: true
+  on:
+    tags: true
+    repo: neobutter/SynoDLMSearchNyaa

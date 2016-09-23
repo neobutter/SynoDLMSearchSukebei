@@ -1,5 +1,5 @@
 <?php
-class SynoDLMSearchTorrentKim {
+class SynoDLMSearchNyaa {
 	private $qurl = "https://sukebei.nyaa.se/?page=rss&term=";
 
 	public function __construct() {

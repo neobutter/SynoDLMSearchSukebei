@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/neobutter/SynoDLMSearchNyaa.svg?branch=master)](https://travis-ci.org/neobutter/SynoDLMSearchNyaa)
 
-Synology Search Module for Nyaa
+Synology Search Module for Nyaa 1
 
 ## Intro
 This is torrent search module for synology download station.

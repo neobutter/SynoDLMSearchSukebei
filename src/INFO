@@ -1,7 +1,7 @@
 {
 "name": "nyaa",
-"displayname": "Nyaa",
-"description": "Nyaa",
+"displayname": "NyaaTorrents",
+"description": "A BitTorrent community focused on East Asian media including anime, manga, music, and more",
 "version": "1.0",
 "majorversion": "4",
 "minorversion": "1",

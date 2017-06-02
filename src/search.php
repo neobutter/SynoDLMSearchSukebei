@@ -1,6 +1,6 @@
 <?php
 class SynoDLMSearchNyaa {
-	private $qurl = "https://sukebei.nyaa.se/?page=rss&term=";
+	private $qurl = "https://sukebei.nyaa.si/?page=rss&term=";
 
 	public function __construct() {
 	}

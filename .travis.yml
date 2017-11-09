@@ -10,5 +10,5 @@ deploy:
   overwrite: true
   draft: true
   on:
-    tags: true
+    tags: false
     repo: neobutter/SynoDLMSearchNyaa

@@ -8,7 +8,7 @@ class SynoDLMSearchNyaa {
 	public function prepare($curl, $query) {
 		$url = $this->qurl . urlencode($query);
 		curl_setopt($curl, CURLOPT_URL, $url);
-		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+		//curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 	}
 
 	public function parse($plugin, $response) {

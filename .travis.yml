@@ -8,7 +8,5 @@ deploy:
   file: nyaa.dlm
   skip_cleanup: true
   overwrite: true
-  prerelease: true
   on:
-    tags: true
     repo: neobutter/SynoDLMSearchNyaa

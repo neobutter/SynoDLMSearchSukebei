@@ -1,6 +1,6 @@
 <?php
 class SynoDLMSearchNyaa {
-	private $qurl = "https://sukebei.nyaa.si/?page=rss&term=";
+	private $qurl = "https://sukebei.nyaa.si/?page=rss&q=";
 
 	public function __construct() {
 	}
@@ -11,6 +11,10 @@ class SynoDLMSearchNyaa {
 	}
 
 	public function parse($plugin, $response) {
+		preg_replace("/nyaa:/ig", "", $response);
+		preg_replace("/seeders/ig", "seeds", $response);
+		preg_replace("/leechers/ig", "leechs", $response);
+		preg_replace("/infoHash/ig", "hash", $response);
 		return $plugin->addRSSResults($response);
 	}
 }

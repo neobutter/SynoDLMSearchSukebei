@@ -11,10 +11,10 @@ class SynoDLMSearchNyaa {
 	}
 
 	public function parse($plugin, $response) {
-		preg_replace("/nyaa:/ig", "", $response);
-		preg_replace("/seeders/ig", "seeds", $response);
-		preg_replace("/leechers/ig", "leechs", $response);
-		preg_replace("/infoHash/ig", "hash", $response);
+		$response = preg_replace("/nyaa:/ig", "", $response);
+		$response = preg_replace("/seeders/ig", "seeds", $response);
+		$response = preg_replace("/leechers/ig", "leechs", $response);
+		$response = preg_replace("/infoHash/ig", "hash", $response);
 		return $plugin->addRSSResults($response);
 	}
 }

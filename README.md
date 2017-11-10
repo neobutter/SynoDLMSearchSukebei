@@ -1,6 +1,6 @@
 # SynoDLMSearchSukebei
 
-[![Build Status](https://travis-ci.org/neobutter/SynoDLMSearchNyaa.svg?branch=master)](https://travis-ci.org/neobutter/SynoDLMSearchNyaa)
+[![Build Status](https://travis-ci.org/neobutter/SynoDLMSearchSukebei.svg?branch=master)](https://travis-ci.org/neobutter/SynoDLMSearchSukebei)
 
 Synology Search Module for https://sukebei.nyaa.si
 

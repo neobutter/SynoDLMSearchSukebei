@@ -11,4 +11,4 @@ deploy:
   draft: true
   on:
     tags: false
-    repo: neobutter/SynoDLMSearchNyaa
+    repo: neobutter/SynoDLMSearchSukebei

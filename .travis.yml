@@ -1,11 +1,11 @@
 language: php
 install: true
-script: tar zcf sukebei.nyaa.si.dlm -C ./src INFO search.php
+script: tar zcf sukebei.dlm -C ./src INFO search.php
 deploy:
   provider: releases
   api_key:
     secure: Yp7nC5aPrFPsU2BDM0C7UOalfOvbpSrGExz6xhZoa9UQB2NRBcehGaa3CcuFPH3JCaSkKPvJjSy+MN2vVjka2/EHGSPi0zY7Yx+5gNF1ydt91ZyOX6qLSHGP1CzqMDDQqJd59/+XVxpjoD1A+SwnEcsQc1gX1JbwnS5+XuRNBQK2INa2KJOjx2TXAKIVAplIyRft5+yug+O+wMfF3QKXzjpFpP1OXE8KDfTNVRE4FYgetKMclSYDVR8PtA8SCVCn9Obua6QivK/c52S0acslg+7DcK5E63W8LJBhAM8YH2gbaW2iu0DWvXJMsGWtiHH0e80UikxV09bLBbx7kvcvh7k5kAZtNSWKf0bBoEmNjSRHwqAJaKoWpox1p76ftjMBX4n2vvZk0Da7huEl5ppDcF9WEdwCt7RBXeKYkvRll28gjdYqTod91UHxT/JghI7Qw6YEoWj48kPkCu9gLm0fAHi47CfsizfNbD4u8seL/YIF2k4t5Ez25buQrSteulkI6i66OvX1gj72PARee3WA4RH2eBTZRobCvdAHCjK7Ib9kJ9Hm5u5mnlG4X82LYNeFU1qCAraw5lFJRDpxZKA6cfJmgoaRmXzeh3+0S3dsJB/AXD2rqKQ/GKKfFsGlJv6SDlber9X6EzWrxrQdy6VU25sCY5TBHVUcx926bjipOio=
-  file: nyaa.dlm
+  file: sukebei.dlm
   skip_cleanup: true
   overwrite: true
   draft: true

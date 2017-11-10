@@ -1,6 +1,6 @@
 language: php
 install: true
-script: tar zcf nyaa.dlm -C ./src INFO search.php
+script: tar zcf sukebei.nyaa.si.dlm -C ./src INFO search.php
 deploy:
   provider: releases
   api_key:

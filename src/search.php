@@ -12,7 +12,7 @@ class SynoDLMSearchSukebei {
 
 	public function parse($plugin, $response) {
         $response = preg_replace("/nyaa:/i", "", $response);
-        $response = preg_replace("/]]>/i", "| Ratio: 1 seeds, 1 leechers", $response);
+        $response = preg_replace("/]]>/i", "| Ratio: 1 seeds, 1 leechers]]>", $response);
         //$response = preg_replace("/]]>/i", "leechers: 1", $response);
         $response = preg_replace("/infoHash/i", "hash", $response);
         if ($plugin == null) {

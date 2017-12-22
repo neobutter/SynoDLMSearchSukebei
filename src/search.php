@@ -11,11 +11,9 @@ class SynoDLMSearchSukebei {
     }
 
 	public function parse($plugin, $response) {
-        preg_match("/[0-9]+(?=<\/nyaa:seeders>)/i", $response, $seeds);
-        preg_match("/[0-9]+(?=<\/nyaa:leechers>)/i", $response, $leechs);
-        $response = preg_replace("/nyaa:/i", "", $response);
-        $response = preg_replace("/]]>/i", "| Ratio: " . $seeds[0] . " seeds, " . $leechs[0] . " leechers]]>", $response);
-        $response = preg_replace("/infoHash/i", "hash", $response);
+	$response = preg_replace_callback("/([0-9]+)(?=<\/nyaa:seeders>).+([0-9]+)(?=<\/nyaa:leechers>).+([0-9a-zA-Z]+]]>)/sU", create_function('$matches', 'return str_replace($matches[3], sprintf("Seeds : %s | Leechs : %s | %s", $matches[1], $matches[2], $matches[3]), $matches[0]);'), $response);
+        //$response = preg_replace("/nyaa:/i", "", $response);
+        //$response = preg_replace("/infoHash/i", "hash", $response);
         if ($plugin == null) {
             return $response;
         } else {
